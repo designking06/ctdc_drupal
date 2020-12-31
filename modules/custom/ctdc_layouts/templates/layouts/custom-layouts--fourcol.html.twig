@@ -1,0 +1,52 @@
+{#
+/**
+ * @file
+ * Theme override for a four-column 25%-25%-25%-25% layout.
+ *
+ * Available variables:
+ * - content: The content for this layout.
+ * - attributes: HTML attributes for the layout <div>.
+ */
+#}
+
+{# Classes #}
+{% set bg_color = settings.bg_color %}
+{% set unique_id = settings.unique_id %}
+{%
+  set classes = [
+    'layout-four-column',
+    bg_color,
+    is_sticky,
+  ]
+%}
+
+{% if content|render|trim %}
+<div{{ attributes.addClass(classes).setAttribute('id', unique_id) }}>
+  <div class="layout layout--fourcol-section">
+
+      {% if content.first %}
+        <div {{ region_attributes.first.addClass('layout__region', 'layout__region--first') }}>
+          {{ content.first }}
+        </div>
+      {% endif %}
+
+      {% if content.second %}
+        <div {{ region_attributes.second.addClass('layout__region', 'layout__region--second') }}>
+          {{ content.second }}
+        </div>
+      {% endif %}
+
+      {% if content.third %}
+        <div {{ region_attributes.third.addClass('layout__region', 'layout__region--third') }}>
+          {{ content.third }}
+        </div>
+      {% endif %}
+
+      {% if content.fourth %}
+        <div {{ region_attributes.fourth.addClass('layout__region', 'layout__region--fourth') }}>
+          {{ content.fourth }}
+        </div>
+      {% endif %}
+  </div>
+</div>
+{% endif %}

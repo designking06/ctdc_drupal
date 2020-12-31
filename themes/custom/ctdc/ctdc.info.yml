@@ -1,0 +1,41 @@
+# THEMENAME.info.yml file for Ice Cream example theme.
+name: CTDC
+type: theme
+base theme: classy
+package: Custom
+description: This is a sub theme of Classy
+core: 8.x
+core_version_requirement: ^8 || ^9
+# Remove core stylesheets.
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
+  - core/misc/normalize-fixes.css
+# Defines libraries group in which we can add CSS/JS.
+libraries:
+  - 'ctdc/global-styling'
+  - 'ctdc/fonts'
+# Regions
+regions:
+  header_top: Header top
+  header: Header
+  primary_menu: Main menu
+  secondary_menu: Secondary menu
+  header_bottom: Header bottom
+  banner: Banner
+  preface: Preface
+  highlighted: Highlighted
+  title: Title
+  help: Help
+  content_top: Content top
+  content: Content
+  sidebar_first: Sidebar first
+  sidebar_last: Sidebar last
+  footer_link_1: Footer Links Column 1
+  footer_link_2: Footer Links Column 2
+  footer_link_3: Footer Links Column 3
+  footer_bottom: Footer bottom
+  # The page_top and page_bottom regions are hidden, which means they will not
+  # show up on the block layout page. But they are required in order for the
+  # html.html.twig to work properly, so do not delete them.
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'

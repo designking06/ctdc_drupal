@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Contains the theme's functions to manipulate Drupal's default markup.
+ *
+ * Complete documentation for this file is available online.
+ * @see https://drupal.org/node/1728096
+ */
+
+use Drupal\block_content\BlockContentInterface;
+
+function ctdc_layouts_preprocess_field__node__field_alignment(array &$variables) {
+$key = $variables['element']['#items']->value;
+$variables['items'][0]['key'] = $key;
+}
