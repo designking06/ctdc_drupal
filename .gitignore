@@ -36,12 +36,12 @@
 /.eslintignore
 /.eslintrc.json
 /.gitattributes
-/.htaccess
+#/.htaccess
 /autoload.php
 /composer.json
 /composer.lock
 /example.gitignore
-/index.php
+#/index.php
 /LICENSE.txt
 /README.txt
 /robots.txt
