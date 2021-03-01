@@ -12,3 +12,7 @@ fonts:
   css:
     theme:
       '//fonts.googleapis.com/css2?family=Roboto': {type: external}
+slick:
+  js:
+    component:
+      js/slick.js
