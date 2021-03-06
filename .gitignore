@@ -1,0 +1,6 @@
+/web/core/
+/web/modules/contrib/
+/vendor/
+/node_modules/
+/.idea/
+/web/profiles/
