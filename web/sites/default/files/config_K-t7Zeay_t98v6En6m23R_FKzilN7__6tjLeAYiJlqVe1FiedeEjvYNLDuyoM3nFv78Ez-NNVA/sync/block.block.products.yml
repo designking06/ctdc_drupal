@@ -1,0 +1,25 @@
+uuid: 21b54f72-b536-4f0a-8960-57b643e98b81
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.products
+  module:
+    - system
+  theme:
+    - ctdc
+id: products
+theme: ctdc
+region: footer_link_2
+weight: -9
+provider: null
+plugin: 'system_menu_block:products'
+settings:
+  id: 'system_menu_block:products'
+  label: Products
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

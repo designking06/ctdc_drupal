@@ -1,16 +1,13 @@
 {
-  "name": "ctdc_drupal",
+  "name": "ctdc_drupal9",
   "version": "1.0.0",
-  "description": "sass for ctdc",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-sass": "^4.14.1"
-  },
   "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",

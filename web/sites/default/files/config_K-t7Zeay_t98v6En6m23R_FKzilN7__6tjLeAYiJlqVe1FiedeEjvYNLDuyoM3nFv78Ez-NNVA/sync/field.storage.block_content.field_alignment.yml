@@ -1,0 +1,30 @@
+uuid: 33def41c-aeea-4e3a-a689-7dae57a587ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_alignment
+field_name: field_alignment
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: text_left
+      label: 'Left Align'
+    -
+      value: text_center
+      label: Centered
+    -
+      value: text_right
+      label: 'Right Align'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

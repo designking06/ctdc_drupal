@@ -1,0 +1,22 @@
+uuid: 13fe0770-48fe-4499-ac7b-7ef66ffdf8c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ctdc
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ctdc_messages
+theme: ctdc
+region: header_top
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

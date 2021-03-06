@@ -1,4 +1,4 @@
-name: ctdc
+name: ctdc-drupal-9
 recipe: drupal9
 config:
-  webroot: .
+  webroot: /web

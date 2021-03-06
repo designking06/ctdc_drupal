@@ -1,0 +1,20 @@
+uuid: 9024bad3-ae2f-4b4a-b26b-de3d2a27591a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ctdc
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ctdc_local_actions
+theme: ctdc
+region: help
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

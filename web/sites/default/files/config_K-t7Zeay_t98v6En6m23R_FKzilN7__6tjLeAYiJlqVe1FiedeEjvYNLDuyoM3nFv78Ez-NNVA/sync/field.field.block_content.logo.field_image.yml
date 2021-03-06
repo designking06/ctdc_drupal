@@ -1,0 +1,38 @@
+uuid: b878c87e-f2fd-4bc5-827f-7b033c0fd0d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.logo
+    - field.storage.block_content.field_image
+  module:
+    - image
+id: block_content.logo.field_image
+field_name: field_image
+entity_type: block_content
+bundle: logo
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: media/images
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 02f62cc5-7503-4955-831d-3d7c99ad484a
+    alt: ''
+    title: ''
+    width: 1440
+    height: 1784
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,23 @@
+uuid: 62190aab-c4c8-4833-8624-edba02922341
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.field_alignment
+  module:
+    - options
+id: block_content.hero.field_alignment
+field_name: field_alignment
+entity_type: block_content
+bundle: hero
+label: 'Horizontal Alignment'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: text_left
+default_value_callback: ''
+settings: {  }
+field_type: list_string
