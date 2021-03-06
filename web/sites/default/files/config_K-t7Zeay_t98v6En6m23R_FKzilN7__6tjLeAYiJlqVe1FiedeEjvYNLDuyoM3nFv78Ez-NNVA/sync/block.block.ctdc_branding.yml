@@ -1,0 +1,25 @@
+uuid: d472cbf3-b883-4b0a-9c41-a0182caecc8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ctdc
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: ctdc_branding
+theme: ctdc
+region: header_top
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Complate Transportation Distribution Center'
+  provider: system
+  label_display: visible
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

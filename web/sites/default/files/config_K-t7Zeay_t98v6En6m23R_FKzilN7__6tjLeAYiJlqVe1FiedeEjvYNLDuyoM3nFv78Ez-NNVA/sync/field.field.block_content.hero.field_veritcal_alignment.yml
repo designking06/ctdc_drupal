@@ -1,0 +1,23 @@
+uuid: 2a54a3c9-2e91-4737-a33a-de9e1ab006d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.field_veritcal_alignment
+  module:
+    - options
+id: block_content.hero.field_veritcal_alignment
+field_name: field_veritcal_alignment
+entity_type: block_content
+bundle: hero
+label: 'Veritcal Alignment'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: v-align_top
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Theme override to display a one-column layout.
+ *
+ * Available variables:
+ * - content: The content for this layout.
+ * - attributes: HTML attributes for the layout <div>.
+ */
+#}
+{% set bg_color = settings.bg_color %}
+{% set is_sticky = settings.is_sticky %}
+{% set unique_id = settings.unique_id %}
+{%
+  set classes = [
+  'layout',
+  'layout--onecol',
+  bg_color,
+  is_sticky,
+  unique_id,
+]
+%}
+{% if content %}
+  <div{{ attributes.addClass(classes).setAttribute('id', unique_id) }}>
+    <div class="layout__region layout__region--content">
+      {{ content.first }}
+    </div>
+  </div>
+{% endif %}

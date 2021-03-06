@@ -1,0 +1,22 @@
+uuid: bc12daad-fd42-40cc-b5b8-33ec37a80319
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ctdc
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: ctdc_powered
+theme: ctdc
+region: footer_bottom
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

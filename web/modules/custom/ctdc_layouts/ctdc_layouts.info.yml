@@ -1,0 +1,7 @@
+name: Custom layouts for CTDC
+type: module
+description: 'Provides custom layouts'
+package: CTDC
+core_version_requirement: ^9
+dependencies:
+  - drupal:layout_builder

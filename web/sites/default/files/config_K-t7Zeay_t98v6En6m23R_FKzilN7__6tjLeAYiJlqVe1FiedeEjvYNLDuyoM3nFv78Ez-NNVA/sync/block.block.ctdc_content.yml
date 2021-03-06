@@ -1,0 +1,22 @@
+uuid: e37b2114-c26a-49b0-b360-7d4ed9410925
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ctdc
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: ctdc_content
+theme: ctdc
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

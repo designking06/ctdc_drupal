@@ -1,0 +1,63 @@
+custom_layouts_onecol:
+  label: 'One Column: Customizable'
+  path: templates/layouts
+  class: '\Drupal\ctdc_layouts\Plugin\Layout\OneColumnsLayoutClass'
+  template: custom-layouts--onecol
+  category: 'Columns: 1'
+  default_region: first
+  regions:
+    first:
+      label: Main content
+  icon_map:
+    - [main]
+
+custom_layouts_twocol_slider:
+  label: 'Two Column: Customizable'
+  path: templates/layouts
+  class: '\Drupal\ctdc_layouts\Plugin\Layout\TwoColumnsLayoutClass'
+  template: custom-layouts--twocol-50-50
+  category: 'Columns: 2'
+  default_region: first
+  regions:
+    first:
+      label: first
+    second:
+      label: second
+  icon_map:
+    - [first, second]
+
+custom_layouts_threecol_25_50_25:
+  label: 'Three column 25/50/25'
+  path: templates/layouts
+  class: '\Drupal\ctdc_layouts\Plugin\Layout\ThreeColumnsLayoutClass'
+  template: custom-layouts--threecol-25-50-25
+  category: 'Columns: 3'
+  default_region: second
+  icon_map:
+    - [first, second, third]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+
+custom_layouts_fourcol:
+  label: 'Four Column: Customizable'
+  path: templates/layouts
+  class: '\Drupal\ctdc_layouts\Plugin\Layout\FourColumnsLayoutClass'
+  template: custom-layouts--fourcol
+  category: 'Columns: 4'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    fourth:
+      label: Fourth
