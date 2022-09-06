@@ -1,8 +1,0 @@
-uuid: 9dac5f01-e51a-41fc-af46-4f7def3eee85
-langcode: en
-status: true
-dependencies: {  }
-name: Vehicles
-vid: vehicles
-description: 'Classification of all types of vehicles manufactured'
-weight: 0

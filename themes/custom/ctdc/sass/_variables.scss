@@ -1,0 +1,58 @@
+$black: #000000;
+$grey--dark: #58595b;
+$grey--light: #e5e5ea;
+$white: #ffffff;
+$red: #c62328;
+$guava: #f26529;
+$orange: #ffc40c;
+$bumblebee: #fff215;
+$blue--deepSky: #10ace3;
+$blue--persian: #0065e3;
+$blue--midnight: #002452;
+$blue--clearWater: #ebf4fc;
+
+
+.bg {
+  &-black {
+    background-color: $black;
+    color: $white;
+  }
+
+  &-white {
+    background-color: $white;
+    color: $black;
+  }
+}
+
+.text_color {
+  &-black{
+    color: $black !important;
+  }
+  &-white{
+    color: $white !important;
+  }
+  &-red{
+    color: $red !important;
+  }
+  &-blue{
+    color: $blue--deepSky !important;
+  }
+  &-blue--clearWater{
+    color: $blue--clearWater !important;
+  }
+  &-blue--persian{
+    color: $blue--persian !important;
+  }
+  &-blue--deepSky{
+    color: $blue--deepSky !important;
+  }
+  &-yellow{
+    color: $bumblebee !important;
+  }
+  &-grey-dark{
+    color: $grey--dark !important;
+  }
+  &-grey-light{
+    color: $grey--light !important;
+  }
+}
